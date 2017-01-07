@@ -1,0 +1,17 @@
+{
+  "name": "foltia-file-adder",
+  "version": "1.0.0",
+  "description": "Script to register files in foltias db.",
+  "preferGlobal": "true",
+  "bin": {
+    "addfile": "addfile.js"
+  },
+  "author": "nuque",
+  "license": "ISC",
+  "dependencies": {
+    "co": "^4.6.0",
+    "co-pg": "^2.0.2",
+    "fs": "0.0.1-security",
+    "pg": "^6.1.2"
+  }
+}
